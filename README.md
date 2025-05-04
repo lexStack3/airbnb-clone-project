@@ -89,3 +89,24 @@ Below are the key entities and their relationships:
 > ➡️ _A review is written by a user about a property._
 
 
+## Feature Breakdown
+### 1. User Management
+Enables users to register, login, and manage their profiles securely. It provides the foundation for authenticating users and distinguishing between quests and property owners (hosts).
+
+### 2. Property Management
+Allows hosts to create, update, and delete property listings. It includes managing essential property details like locations, description, and pricing, making the platform rich with listings.
+
+### 3. Booking System
+Users can browse available properties, make reservations, and view booking history. It handles key logic like check-in/check-out and availability checks.
+
+### 4. Payment Processing
+Facilities secure financial transactions linked to bookings. It ensures users can make payments seamlessly and that records are stored accurately for tracking and reporting.
+
+### 5. Review System
+Enables guests to have rating and comments on properties they've stayed in. This builds trust within the community and enhances the quality of listings.
+
+### 6. API Documentation
+RESTful and GraphQL APIs are documented using OpenAPI standards. This makes it easier for frontend developers and third-party tools to integrate with the backend.
+
+### 7. Dataase Optimizationb
+Users indexing and caching strategies to improve performance and ensure fast data retival. This is critical for maintaining a responsive and scalable applications.
