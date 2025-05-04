@@ -110,3 +110,17 @@ RESTful and GraphQL APIs are documented using OpenAPI standards. This makes it e
 
 ### 7. Dataase Optimizationb
 Users indexing and caching strategies to improve performance and ensure fast data retival. This is critical for maintaining a responsive and scalable applications.
+
+
+## API Security
+### 1. Authentication
+We will implement token-based authentication (e.g., JWT) to ensure that only authorized users can access protected resources. This prevents unauthorized access and ensures that user credentials are securely handed.
+> Why it's crucial: Protects user data by verifying identities before granting access.
+
+### 2. Authorization
+Role-based access control (RBAC) will be used to enforce specific permissions for different types of users (e.g., guests vs hosts). Only authorized users can modify or view restricted data.
+> Why it's crucial: Ensures that users can only access data or perform actions appropriate to their role.
+
+### 3. Rate Limiting
+Rate limiting will be implemented to restrict the number of requests a user can make to the API written a given timeframe, preventing abuse and mitigating DDoS attacks.
+> Why it's crucial: Helps protect the system from overloading and ensures fairness in resource usage.
