@@ -44,3 +44,15 @@ This project integrates a variety of modern technologies,each serving a specific
 - Redis: A fast in-memory key-value store used to manage session data and caching, improving application speed and performance.
 - Docker: A containerization tool used to create consistent development, testing, and production environments across all machines.
 - CI/CD Pipelines (e.g., GitHub Actions): Automated tools for continuous integration and deployment, ensuring code changes are tested and deployed efficiently.
+
+## Database Design
+The database schema is designed to support core functionalities like user management, property listings, bookings, payments, and reviews.
+Below are the key entities and their relationships:
+### 1. User
+- `id` (Primary Key)
+- `username`
+- `email`
+- `password_hash`
+- `is_host` (boolen to identify property owners)
+
+[!NOTE] 
