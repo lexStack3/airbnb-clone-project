@@ -54,5 +54,20 @@ Below are the key entities and their relationships:
 - `email`
 - `password_hash`
 - `is_host` (boolen to identify property owners)
+> ➡️ _A user can own multiple properties and make multiple bookings._
 
-[!NOTE] 
+### 2. Property
+- `id` (Primary Key)
+- `owner_id` (Foreign Key → User)
+- `title`
+- `description`
+- `location`
+> ➡️ _A property belongs to a user and can have many bookings and reviews._
+
+### 3. Booking
+- `id` (Primary Key)
+- `user_id` (Foreign Key → User)
+- `property_id` (Foreign Key → User)
+- `check_in_date`
+- `check_out_date`
+> ➡️ _Each booking links a user to a property and may be associated with a payment._
