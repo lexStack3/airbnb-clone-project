@@ -124,3 +124,8 @@ Role-based access control (RBAC) will be used to enforce specific permissions fo
 ### 3. Rate Limiting
 Rate limiting will be implemented to restrict the number of requests a user can make to the API written a given timeframe, preventing abuse and mitigating DDoS attacks.
 > Why it's crucial: Helps protect the system from overloading and ensures fairness in resource usage.
+
+### 4. Encryption
+Sensitive data, such as payment information and personal details, will be encrypted both in transit (via HTTPS) and at rest.
+
+> Why it's crucial: Safeguards user privacy and payment data from unauthorized access.
