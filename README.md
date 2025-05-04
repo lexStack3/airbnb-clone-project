@@ -129,3 +129,10 @@ Rate limiting will be implemented to restrict the number of requests a user can 
 Sensitive data, such as payment information and personal details, will be encrypted both in transit (via HTTPS) and at rest.
 
 > Why it's crucial: Safeguards user privacy and payment data from unauthorized access.
+
+
+## CI/CD Pipeline
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the testing, integration, and deployment of code. CI ensures that code changes are automatically tested and integrated, while CD automatically deploys updates to production after successful tests. This helps maintain code quality, reduces manual intervention, and ensures fast, reliable releases.
+### Tools to be used:
+- GitHub Actions: Automates the build and testing process.
+- Docker: Ensures consistent environments during development, testing, and production.
