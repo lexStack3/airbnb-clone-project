@@ -71,3 +71,21 @@ Below are the key entities and their relationships:
 - `check_in_date`
 - `check_out_date`
 > ➡️ _Each booking links a user to a property and may be associated with a payment._
+
+### 4. Payment
+- `id` (Primary Key)
+- `booking_id` (Foreign Key → User)
+- `amount`
+- `payment_status`
+- `payment_date`
+> ➡️ _Each payment is tied to a specific booking._
+
+### 5. Review
+- `id` (Primary Key)
+- `user_id` (Foreign Key → User)
+- `property_id` (Foreign Key → User)
+- `rating`
+- `comment`
+> ➡️ _A review is written by a user about a property._
+
+
