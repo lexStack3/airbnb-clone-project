@@ -1,19 +1,19 @@
-<h1 align="center">AirBnB Clone Project</h1>
+<h1 align="center" style="font-weight: bold;">AirBnB Clone Project</h1>
 <hr style="border: none; height: 5px; background: pink;">
 <img width="650" height="400" src="img/Airbnb-Logo.png" alt="AirBnB Logo" align="center" style="box-sizing: border-box;">
 <hr style="border: none; height: 5px; background: pink;">
 
-## About the Project
+## **About**
 The AirBnB Clone Project is a comprehensive full-stack simulation of a property rental platform similar to AirBnB. It is designed to immerse developers in real-world backend systems, API development, database design, and deployment strategies. The goal is to build a secure, scalable, and modular web application.
 
-## Project Goals
+## **Project Goals**
 - Secure user management and authentication
 - Full CRUD operations for properties and bookings
 - Integrated payment processing
 - Review and rating system
 - Efficient data handling with optimization and caching
 
-## Tech Stack
+## **Tech Stack**
 - Backend Framework: Django, Django REST Framework
 - Database: PostgreSQL
 - API Protocols: RESTful API & GraphQL
@@ -22,7 +22,7 @@ The AirBnB Clone Project is a comprehensive full-stack simulation of a property 
 - Containization: Docker
 - Deployment & CI/CD: GitHub Actions, Docker Compose
 
-## Team Roles
+## **Team Roles**
 The AirBnB Clone project was a collaborative effort requring distinct responsibilities distributed across several specialized roles. Each role contributed significantly to the successful planning, development, and delivery of the platform.
 
 ### Backend Developer
@@ -37,7 +37,7 @@ Handled the deployment process using Docker and CI/CD pipelines. Ensured the app
 ### QA Engineer
 Tested each feature for functionally, security, and performance. Wrote automated tests, reported bugs, and ensured that all components met the defined requirements and quality standards before deployment.
 
-## Technology Stack
+## **Technology Stack**
 This project integrates a variety of modern technologies,each serving a specific purpose in building a robust, scalable, and efficient AirBnB-like booking platform.
 - Django: A high-level Python web framework used to develop the backend logic and RESTful APIs quickly and securely.
 - Django REST Framework: An extension of Django used to build powerful, flexible, and well-documented RESTful APIs.
@@ -48,7 +48,7 @@ This project integrates a variety of modern technologies,each serving a specific
 - Docker: A containerization tool used to create consistent development, testing, and production environments across all machines.
 - CI/CD Pipelines (e.g., GitHub Actions): Automated tools for continuous integration and deployment, ensuring code changes are tested and deployed efficiently.
 
-## Database Design
+## **Database Design**
 The database schema is designed to support core functionalities like user management, property listings, bookings, payments, and reviews.
 Below are the key entities and their relationships:
 ### 1. User
@@ -92,7 +92,7 @@ Below are the key entities and their relationships:
 > ➡️ _A review is written by a user about a property._
 
 
-## Feature Breakdown
+## **Feature Breakdown**
 ### 1. User Management
 Enables users to register, login, and manage their profiles securely. It provides the foundation for authenticating users and distinguishing between quests and property owners (hosts).
 
@@ -115,27 +115,33 @@ RESTful and GraphQL APIs are documented using OpenAPI standards. This makes it e
 Users indexing and caching strategies to improve performance and ensure fast data retival. This is critical for maintaining a responsive and scalable applications.
 
 
-## API Security
+## **API Security**
 ### 1. Authentication
 We will implement token-based authentication (e.g., JWT) to ensure that only authorized users can access protected resources. This prevents unauthorized access and ensures that user credentials are securely handed.
-> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Protects user data by verifying identities before granting access.
+> **Why it's crucial:** Protects user data by verifying identities before granting access.
 
 ### 2. Authorization
 Role-based access control (RBAC) will be used to enforce specific permissions for different types of users (e.g., guests vs hosts). Only authorized users can modify or view restricted data.
-> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Ensures that users can only access data or perform actions appropriate to their role.
+> **Why it's crucial:** Ensures that users can only access data or perform actions appropriate to their role.
 
 ### 3. Rate Limiting
 Rate limiting will be implemented to restrict the number of requests a user can make to the API written a given timeframe, preventing abuse and mitigating DDoS attacks.
-> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Helps protect the system from overloading and ensures fairness in resource usage.
+> **Why it's crucial:** Helps protect the system from overloading and ensures fairness in resource usage.
 
 ### 4. Encryption
 Sensitive data, such as payment information and personal details, will be encrypted both in transit (via HTTPS) and at rest.
 
-> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Safeguards user privacy and payment data from unauthorized access.
+> **Why it's crucial:** Safeguards user privacy and payment data from unauthorized access.
 
 
-## CI/CD Pipeline
+## **CI/CD Pipeline**
 Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the testing, integration, and deployment of code. CI ensures that code changes are automatically tested and integrated, while CD automatically deploys updates to production after successful tests. This helps maintain code quality, reduces manual intervention, and ensures fast, reliable releases.
 ### Tools to be used:
 - GitHub Actions: Automates the build and testing process.
 - Docker: Ensures consistent environments during development, testing, and production.
+
+
+## **Contributors**
+- Alexander Edim - Software Engineer
+  - [X @lexStack3](https://x.com/lexStack3)
+  - [LinkedIn - Alexander Edim](https://www.linkedin.com/in/alexander-edim-830120279/)
