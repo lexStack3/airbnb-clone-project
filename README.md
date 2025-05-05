@@ -25,16 +25,16 @@ The AirBnB Clone Project is a comprehensive full-stack simulation of a property 
 ## Team Roles
 The AirBnB Clone project was a collaborative effort requring distinct responsibilities distributed across several specialized roles. Each role contributed significantly to the successful planning, development, and delivery of the platform.
 
-## Backend Developer
+### Backend Developer
 Responsible for building and maintaining all API endpoints, implementing business logic, and integrating third-party services like payment gateways. Ensures code quality, unit testing, and adheres to RESTful and GraphQL standards.
 
-## Database Adminstrator (DBA)
+### Database Adminstrator (DBA)
 Designed and optimized the relational database schema using PostgreSQL. Implemented indexing strategies and managed data integrity, backups, and migrations for consistent performance and reliability.
 
-## DevOps Engineer
+### DevOps Engineer
 Handled the deployment process using Docker and CI/CD pipelines. Ensured the application ran smoothly across development and production environments, monitored server health, and managed automated testing and releases.
 
-## QA Engineer
+### QA Engineer
 Tested each feature for functionally, security, and performance. Wrote automated tests, reported bugs, and ensured that all components met the defined requirements and quality standards before deployment.
 
 ## Technology Stack
