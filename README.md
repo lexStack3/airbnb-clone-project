@@ -1,5 +1,7 @@
-# AirBnB Clone Project
-[AirBnB Logo]("/img/AirBnB.png")
+<h1 align="center">AirBnB Clone Project</h1>
+<hr style="border: none; height: 5px; background: pink;">
+<img width="650" height="400" src="img/Airbnb-Logo.png" alt="AirBnB Logo" align="center" style="box-sizing: border-box;">
+<hr style="border: none; height: 5px; background: pink;">
 
 ## About the Project
 The AirBnB Clone Project is a comprehensive full-stack simulation of a property rental platform similar to AirBnB. It is designed to immerse developers in real-world backend systems, API development, database design, and deployment strategies. The goal is to build a secure, scalable, and modular web application.
@@ -116,20 +118,20 @@ Users indexing and caching strategies to improve performance and ensure fast dat
 ## API Security
 ### 1. Authentication
 We will implement token-based authentication (e.g., JWT) to ensure that only authorized users can access protected resources. This prevents unauthorized access and ensures that user credentials are securely handed.
-> Why it's crucial: Protects user data by verifying identities before granting access.
+> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Protects user data by verifying identities before granting access.
 
 ### 2. Authorization
 Role-based access control (RBAC) will be used to enforce specific permissions for different types of users (e.g., guests vs hosts). Only authorized users can modify or view restricted data.
-> Why it's crucial: Ensures that users can only access data or perform actions appropriate to their role.
+> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Ensures that users can only access data or perform actions appropriate to their role.
 
 ### 3. Rate Limiting
 Rate limiting will be implemented to restrict the number of requests a user can make to the API written a given timeframe, preventing abuse and mitigating DDoS attacks.
-> Why it's crucial: Helps protect the system from overloading and ensures fairness in resource usage.
+> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Helps protect the system from overloading and ensures fairness in resource usage.
 
 ### 4. Encryption
 Sensitive data, such as payment information and personal details, will be encrypted both in transit (via HTTPS) and at rest.
 
-> Why it's crucial: Safeguards user privacy and payment data from unauthorized access.
+> <span style="color: yellow; font-weight: bold;">Why it's crucial:</span> Safeguards user privacy and payment data from unauthorized access.
 
 
 ## CI/CD Pipeline
