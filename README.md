@@ -1,4 +1,5 @@
 # AirBnB Clone Project
+[AirBnB Logo]("/img/AirBnB.png")
 
 ## About the Project
 The AirBnB Clone Project is a comprehensive full-stack simulation of a property rental platform similar to AirBnB. It is designed to immerse developers in real-world backend systems, API development, database design, and deployment strategies. The goal is to build a secure, scalable, and modular web application.
